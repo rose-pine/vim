@@ -106,13 +106,15 @@ Modify the colorscheme settings using pre-defined variables as follows:
 ## Preview
 
 ### Rosé Pine
-![Rosé Pine Vim]()
+![Rosé Pine Vim](https://user-images.githubusercontent.com/108054324/209303592-15ef18b6-118e-4c25-832f-3c3f81d99bac.png)
 
 ### Rosé Pine Moon
-![Rosé Pine Moon Vim]()
+![Rosé Pine Moon Vim](https://user-images.githubusercontent.com/108054324/209303640-02a57c84-21a6-4e36-bffb-ddc37a281175.png)
+
 
 ### Rosé Pine Dawn
-![Rosé Pine Dawn Vim]()
+![Rosé Pine Dawn Vim](https://user-images.githubusercontent.com/108054324/209303682-a3908e78-091e-4258-abd4-32cd866ed58a.png)
+
 
 ## Credits
 
