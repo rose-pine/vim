@@ -51,19 +51,19 @@ Add the line `Plugin rose-pine/vim` to your `vimrc` and install using the comman
 
 Use your favourite Rosé Pine flavour as follows:<br><br>
 
-- **Rosé Pine**
+- **Rosé Pine**<br><br>
     Add the following lines to your `vimrc`<br><br>
     ```vim
     set background=dark
     colorscheme rosepine
     ```
-- **Rosé Pine Moon**
+- **Rosé Pine Moon**<br><br>
     Add the following lines to your `vimrc`<br><br>
     ```vim
     set background=dark
     colorscheme rosepine_moon
     ```
-- **Rosé Pine Dawn**
+- **Rosé Pine Dawn**<br><br>
     Add the following lines to your `vimrc`<br><br>
     ```vim
     set background=light
@@ -74,17 +74,17 @@ Use your favourite Rosé Pine flavour as follows:<br><br>
 
 #### [Lightline](https://github.com/itchyny/lightline.vim)
 
-- **Rosé Pine**
+- **Rosé Pine**<br><br>
     Add the following lines to your `vimrc`<br><br>
     ```vim
     let g:lightline = { 'colorscheme': 'rosepine' }
     ```
-- **Rosé Pine Moon**
+- **Rosé Pine Moon**<br><br>
     Add the following lines to your `vimrc`<br><br>
     ```vim
     let g:lightline = { 'colorscheme': 'rosepine_moon' }
     ```
-- **Rosé Pine Dawn**
+- **Rosé Pine Dawn**<br><br>
     Add the following lines to your `vimrc`<br><br>
     ```vim
     let g:lightline = { 'colorscheme': 'rosepine_dawn' }
