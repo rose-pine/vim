@@ -1,0 +1,13 @@
+; vim: ft=colortemplate fdm=marker
+
+VimwikiHR              subtle        none
+VimwikiHeader1         iris          none          bold
+VimwikiHeader2         foam          none          bold
+VimwikiHeader3         rose          none          bold
+VimwikiHeader4         gold          none          bold
+VimwikiHeader5         pine          none          bold
+VimwikiHeader6         foam          none          bold
+VimwikiHeaderChar      pine          none
+VimwikiLink            iris          none          underline
+VimwikiList            iris          none
+VimwikiNoExistsLink    love          none

@@ -1,0 +1,22 @@
+; vim: ft=colortemplate fdm=marker
+
+; Base
+CurSearch           -> IncSearch
+diffAdded           -> DiffAdd
+diffChanged         -> DiffChange
+diffRemoved         -> DiffDelete
+StatusLineTerm      -> StatusLine
+StatusLineTermNC    -> StatusLineNC
+WildMenu            -> IncSearch
+
+; Syntax
+markdownH1Delimiter -> markdownH1
+markdownH2Delimiter -> markdownH2
+markdownH3Delimiter -> markdownH3
+markdownH4Delimiter -> markdownH4
+markdownH5Delimiter -> markdownH5
+markdownH6Delimiter -> markdownH6
+markdownURL         -> markdownLinkText
+mkdLink             -> mkdInlineURL
+mkdLinkDef          -> mkdInlineURL
+mkdURL              -> mkdInlineURL

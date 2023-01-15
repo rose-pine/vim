@@ -1,17 +1,18 @@
+auxfile autoload/lightline/colorscheme/@shortname.vim
 
-if &background ==# 'dark'
-    let s:base    = [ '#191724', 234 ]
-    let s:surface = [ '#1f1d2e', 234 ]
-    let s:overlay = [ '#26233a', 235 ]
-    let s:muted   = [ '#6e6a86', 60 ]
-    let s:subtle  = [ '#908caa', 103 ]
-    let s:text    = [ '#e0def4', 189 ]
-    let s:love    = [ '#eb6f92', 204 ]
-    let s:gold    = [ '#f6c177', 222 ]
-    let s:rose    = [ '#ebbcba', 181 ]
-    let s:pine    = [ '#31748f', 31 ]
-    let s:foam    = [ '#9ccfd8', 152 ]
-    let s:iris    = [ '#c4a7e7', 183 ]
+if &background ==# '@background'
+    let s:base    = [ '@guibase', @term256base ]
+    let s:surface = [ '@guisurface', @term256surface ]
+    let s:overlay = [ '@guioverlay', @term256overlay ]
+    let s:muted   = [ '@guimuted', @term256muted ]
+    let s:subtle  = [ '@guisubtle', @term256subtle ]
+    let s:text    = [ '@guitext', @term256text ]
+    let s:love    = [ '@guilove', @term256love ]
+    let s:gold    = [ '@guigold', @term256gold ]
+    let s:rose    = [ '@guirose', @term256rose ]
+    let s:pine    = [ '@guipine', @term256pine ]
+    let s:foam    = [ '@guifoam', @term256foam ]
+    let s:iris    = [ '@guiiris', @term256iris ]
 
     let s:p = {'normal': {}, 'inactive': {}, 'insert': {}, 'replace': {}, 'visual': {}, 'tabline': {}}
 
@@ -42,7 +43,8 @@ if &background ==# 'dark'
     let s:p.tabline.middle  = [ [ s:base, s:overlay ] ]
     let s:p.tabline.tabsel  = [ [ s:base, s:iris ] ]
 
-    let g:lightline#colorscheme#rosepine#palette = lightline#colorscheme#flatten(s:p)
+    let g:lightline#colorscheme#@shortname#palette = lightline#colorscheme#flatten(s:p)
 
 endif
 
+endauxfile

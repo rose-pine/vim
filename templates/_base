@@ -1,0 +1,105 @@
+; vim: ft=colortemplate
+
+#if get(g:,'disable_bg',0)
+    Normal             text          none
+    NormalNC           text          none
+    SignColumn         text          none
+    StatusLineNC       muted         none
+#else
+    Normal             text          base
+    NormalNC           text          base
+    SignColumn         text          base
+    StatusLineNC       muted         base
+#endif
+#if get(g:,'disable_float_bg',0)
+    DarkenedPanel      none          none
+    DarkenedStatusline none          none
+    Folded             text          none
+    NormalFloat        text          none
+    Pmenu              subtle        none
+    StatusLine         subtle        none
+    TabLine            subtle        none
+    TabLineFill        none          none
+#else
+    DarkenedPanel      none          surface
+    DarkenedStatusline none          surface
+    Folded             text          surface
+    NormalFloat        text          surface
+    Pmenu              subtle        surface
+    StatusLine         subtle        surface
+    TabLine            subtle        surface
+    TabLineFill        none          surface
+#endif
+#if !s:italics 
+    Comment            muted         none
+#else
+    Comment            muted         none          italic
+#endif
+ColorColumn            none          overlay
+Conceal                none          none
+CursorColumn           none          highlight_low
+CursorLine             none          highlight_low
+CursorLineNr           text          none
+DiffAdd                none          diff_add
+DiffChange             none          overlay
+DiffDelete             none          diff_delete
+DiffText               none          diff_text
+Directory              foam          none
+ErrorMsg               love          none          bold
+FloatBorder            highlight_med none
+FloatTitle             muted         none
+FoldColumn             muted         none
+IncSearch              base          rose
+LineNr                 muted         none
+MatchParen             text          highlight_med
+ModeMsg                subtle        none
+MoreMsg                iris          none
+NonText                muted         none
+PmenuSbar              none          highlight_low
+PmenuSel               text          overlay
+PmenuThumb             none          highlight_med
+Question               gold          none
+Search                 none          highlight_med
+SpecialKey             foam          none
+SpellBad               none          none          undercurl s=subtle
+SpellCap               none          none          undercurl s=subtle
+SpellLocal             none          none          undercurl s=subtle
+SpellRare              none          none          undercurl s=subtle
+TabLineSel             text          overlay
+Title                  text          none
+VertSplit              highlight_med none
+Visual                 none          highlight_med
+WarningMsg             gold          none
+Boolean                rose          none
+Character              gold          none
+Conditional            pine          none
+Constant               gold          none
+Debug                  rose          none
+Define                 iris          none
+Delimiter              subtle        none
+Error                  love          none
+Exception              pine          none
+Float                  gold          none
+Function               rose          none
+Identifier             rose          none
+Include                iris          none
+Keyword                pine          none
+Label                  foam          none
+Macro                  iris          none
+Number                 gold          none
+Operator               subtle        none
+PreCondit              iris          none
+PreProc                iris          none
+Repeat                 pine          none
+Special                rose          none
+SpecialChar            rose          none
+SpecialComment         iris          none
+Statement              pine          none
+StorageClass           foam          none
+String                 gold          none
+Structure              foam          none
+Tag                    rose          none
+Todo                   iris          none
+Type                   foam          none
+Typedef                foam          none
+Underlined             none          none          underline

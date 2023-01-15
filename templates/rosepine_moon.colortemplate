@@ -1,0 +1,17 @@
+; vim: ft=colortemplate
+
+Full name: Rosé Pine Moon
+Short name: rosepine_moon
+
+Include: _info
+
+Include: _linked_groups
+
+Variant: gui 256
+
+Background: dark
+Include: _moon
+
+Include: _highlights
+
+Include: _lightline

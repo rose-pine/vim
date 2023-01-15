@@ -1,0 +1,42 @@
+; vim: ft=colortemplate fdm=marker
+
+htmlArg                iris          none
+htmlBold               none          none          bold
+htmlEndTag             subtle        none
+htmlH1                 iris          none          bold
+htmlH2                 foam          none          bold
+htmlH3                 rose          none          bold
+htmlH4                 gold          none          bold
+htmlH5                 pine          none          bold
+#if !s:italics 
+    htmlItalic         none          none
+#else
+    htmlItalic         none          none          italic
+#endif
+htmlLink               iris          none
+htmlTag                subtle        none
+htmlTagN               text          none
+htmlTagName            foam          none
+
+markdownDelimiter      subtle        none
+markdownH1             iris          none          bold
+markdownH2             foam          none          bold
+markdownH3             rose          none          bold
+markdownH4             gold          none          bold
+markdownH5             pine          none          bold
+markdownH6             foam          none          bold
+markdownLinkText       iris          none          underline
+
+#if !s:italics 
+    mkdCode            foam          none
+#else
+    mkdCode            foam          none          italic
+#endif
+mkdCodeDelimiter       rose          none
+mkdCodeEnd             foam          none
+mkdCodeStart           foam          none
+mkdFootnotes           foam          none
+mkdID                  foam          none          underline
+mkdInlineURL           iris          none          underline
+mkdListItemLine        text          none
+mkdRule                subtle        none

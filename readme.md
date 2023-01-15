@@ -55,6 +55,8 @@ Add the line `Plugin rose-pine/vim` to your `vimrc` and install using the comman
 
 ## Usage
 
+> Note: This colorscheme is only for Vim. Use [Rosé Pine for Neovim](https://github.com/rose-pine/neovim) for best compatibility with Neovim and popular Neovim plugins.
+
 ### Enable
 
 Use your favourite Rosé Pine flavour as follows:<br>
@@ -126,11 +128,8 @@ Modify the colorscheme settings using pre-defined variables as follows:
 
 | Objective | Variable declaration |
 | --------- | -------------------- |
-| Bold vertical split | `let g:bold_vert_split = 1` |
-| Dim non-current background | `let g:dim_nc_bg = 1` |
 | Transparent background | `let g:disable_bg = 1` |
 | Transparent float background | `let g:disable_float_bg = 1` |
-| Disable italics | `let g:disable_italics = 1` |
 
 ## Preview
 
@@ -146,4 +145,5 @@ Modify the colorscheme settings using pre-defined variables as follows:
 ## Credits
 
 - [Rosé Pine Neovim contributors](https://github.com/rose-pine/neovim/graphs/contributors)
+- [Lifepillar](https://github.com/lifepillar)
 - [Prateek](https://github.com/prateektade)

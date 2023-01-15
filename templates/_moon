@@ -1,0 +1,20 @@
+; vim: ft=colortemplate
+
+Color: base           #232136 ~
+Color: surface        #2a273f ~
+Color: overlay        #393552 ~
+Color: muted          #6e6a86 ~
+Color: subtle         #908caa ~
+Color: text           #e0def4 ~
+Color: love           #eb6f92 ~
+Color: gold           #f6c177 ~
+Color: rose           #ea9a97 ~
+Color: pine           #3e8fb0 ~
+Color: foam           #9ccfd8 ~
+Color: iris           #c4a7e7 ~
+Color: highlight_low  #2a283e ~
+Color: highlight_med  #44415a ~
+Color: highlight_high #56526e ~
+Color: diff_add       #3b4456 ~
+Color: diff_delete    #4b3148 ~
+Color: diff_text      #4b3949 ~
