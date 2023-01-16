@@ -13,7 +13,7 @@
 
 ## Installation
 
-<details>
+<details open>
     <summary><h3><a href='https://vimhelp.org/repeat.txt.html#packages'>Vim packages</a></h3></summary>
 
 If not already present, create the plugins directory as follows:<br>
@@ -27,13 +27,13 @@ git clone --depth=1 https://github.com/rose-pine/vim $HOME/.vim/pack/plugins/sta
 ```
 </details>
 
-<details>
+<details open>
     <summary><h3><a href='https://github.com/junegunn/vim-plug'>Vim-plug</a></h3></summary>
     
 Add the line `Plug rose-pine/vim` to your `vimrc` and install using the command `:PlugInstall`.
 </details>
 
-<details>
+<details open>
     <summary><h3><a href='https://github.com/tpope/vim-pathogen'>Pathogen</a></h3></summary>
     
 Clone the repository to your `RUNTIMEPATH` as follows:<br>
@@ -47,7 +47,7 @@ git submodule add git@github.com:rose-pine/vim.git $HOME/.vim/bundle/rosepine
 ```
 </details>
 
-<details>
+<details open>
     <summary><h3><a href='https://github.com/VundleVim/Vundle.vim'>Vundle</a></h3></summary>
 
 Add the line `Plugin rose-pine/vim` to your `vimrc` and install using the command `:PluginInstall`.
@@ -61,7 +61,7 @@ Add the line `Plugin rose-pine/vim` to your `vimrc` and install using the comman
 
 Use your favourite Rosé Pine flavour as follows:<br>
 
-<details>
+<details open>
     <summary><b>Rosé Pine</b></summary>
 
 Add the following lines to your `vimrc`<br>
@@ -71,7 +71,7 @@ colorscheme rosepine
 ```
 </details>
 
-<details>
+<details open>
     <summary><b>Rosé Pine Moon</b></summary>
 
 Add the following lines to your `vimrc`<br>
@@ -81,7 +81,7 @@ colorscheme rosepine_moon
 ```
 </details>
 
-<details>
+<details open>
     <summary><b>Rosé Pine Dawn</b></summary>
 
 Add the following lines to your `vimrc`<br>
@@ -93,7 +93,7 @@ colorscheme rosepine_dawn
 
 ### [Lightline](https://github.com/itchyny/lightline.vim) integration
 
-<details>
+<details open>
     <summary><b>Rosé Pine</b></summary>
 
 Add the following lines to your `vimrc`<br>
@@ -102,7 +102,7 @@ let g:lightline = { 'colorscheme': 'rosepine' }
 ```
 </details>
 
-<details>
+<details open>
     <summary><b>Rosé Pine Moon</b></summary>
 
 Add the following lines to your `vimrc`<br>
@@ -111,7 +111,7 @@ let g:lightline = { 'colorscheme': 'rosepine_moon' }
 ```
 </details>
 
-<details>
+<details open>
     <summary><b>Rosé Pine Dawn</b></summary>
 
 Add the following lines to your `vimrc`<br>
@@ -120,7 +120,7 @@ let g:lightline = { 'colorscheme': 'rosepine_dawn' }
 ```
 </details>
 
-> Note: Lightline ships a version of the default Rosé Pine colorscheme in their repository. To ensure that this version does gets applied, either delete the file `rosepine.vim` present in the `lightline.vim/autoload/lightline/colorscheme/` directory, or replace it with the file from the `autoload/lightline/colorscheme/` directory corresponding to this plugin.
+> Note: Lightline ships a version of the default Rosé Pine colorscheme in their repository. To ensure that this version gets applied, either delete the file `rosepine.vim` present in the `lightline.vim/autoload/lightline/colorscheme/` directory, or replace it with the file from the `autoload/lightline/colorscheme/` directory corresponding to this plugin.
 
 ### Configuration
 
