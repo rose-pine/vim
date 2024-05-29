@@ -50,7 +50,7 @@ git submodule add git@github.com:rose-pine/vim.git $HOME/.vim/bundle/rosepine
 <details open>
     <summary><h3><a href='https://github.com/VundleVim/Vundle.vim'>Vundle</a></h3></summary>
 
-Add the line `Plugin rose-pine/vim` to your `vimrc` and install using the command `:PluginInstall`.
+Add the line `'Plugin rose-pine/vim'` to your `vimrc` and install using the command `:PluginInstall`.
 </details>
 
 ## Usage
