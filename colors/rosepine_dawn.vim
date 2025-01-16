@@ -98,6 +98,7 @@ hi NonText guifg=#9893a5 guibg=NONE gui=NONE cterm=NONE
 hi PmenuSbar guifg=NONE guibg=#f4ede8 gui=NONE cterm=NONE
 hi PmenuSel guifg=#575279 guibg=#f2e9e1 gui=NONE cterm=NONE
 hi PmenuThumb guifg=NONE guibg=#dfdad9 gui=NONE cterm=NONE
+hi PmenuMatch guifg=#575279 guibg=NONE gui=NONE cterm=NONE
 hi Question guifg=#ea9d34 guibg=NONE gui=NONE cterm=NONE
 hi Search guifg=NONE guibg=#dfdad9 gui=NONE cterm=NONE
 hi SpecialKey guifg=#56949f guibg=NONE gui=NONE cterm=NONE
