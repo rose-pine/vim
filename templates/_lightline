@@ -22,9 +22,9 @@ if &background ==# '@background'
     let s:p.normal.error    = [ [ s:overlay, s:iris ] ]
     let s:p.normal.warning  = [ [ s:surface, s:foam ] ]
 
-    let s:p.inactive.left   = [ [ s:overlay, s:surface ], [ s:overlay, s:surface ] ]
-    let s:p.inactive.right  = [ [ s:overlay, s:surface ], [ s:overlay, s:surface ] ]
-    let s:p.inactive.middle = [ [ s:overlay, s:surface ] ]
+    let s:p.inactive.left   = [ [ s:muted, s:surface ], [ s:muted, s:surface ] ]
+    let s:p.inactive.right  = [ [ s:muted, s:surface ], [ s:muted, s:surface ] ]
+    let s:p.inactive.middle = [ [ s:muted, s:surface ] ]
 
     let s:p.insert.left     = [ [ s:base, s:pine, 'bold' ], [ s:text, s:surface ] ]
     let s:p.insert.right    = [ [ s:base, s:pine ], [ s:text, s:surface ] ]
