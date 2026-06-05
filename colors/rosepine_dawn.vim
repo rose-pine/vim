@@ -13,7 +13,7 @@ set background=light
 hi clear
 let g:colors_name = 'rosepine_dawn'
 
-let s:t_Co = exists('&t_Co') && !has('gui_running') ? (&t_Co ?? 0) : -1
+let s:t_Co = exists('&t_Co') && !has('gui_running') ? (&t_Co > 0 ? &t_Co : 0) : -1
 let s:italics = (&t_ZH != '' && &t_ZH != '[7m') || has('gui_running')
 
 hi! link CurSearch IncSearch
